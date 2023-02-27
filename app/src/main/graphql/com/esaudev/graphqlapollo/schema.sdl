@@ -1,0 +1,10 @@
+type Productos {
+    Descripcion: String
+    image: String
+    Precio: Float
+    id: Int
+}
+
+type Query {
+    ListaProductos: [Productos]
+}

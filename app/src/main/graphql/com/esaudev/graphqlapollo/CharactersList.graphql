@@ -1,0 +1,8 @@
+query CharactersList{
+    ListaProductos {
+        Descripcion
+        id
+        image
+        Precio
+    }
+}
